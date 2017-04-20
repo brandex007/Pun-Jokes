@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/about"
+        android:title="About">
+    </item>
+
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/favorites2"
+        android:title="Favorites"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/submit"
+        android:title="Submit a Pun">
+    </item>
+
+</menu>

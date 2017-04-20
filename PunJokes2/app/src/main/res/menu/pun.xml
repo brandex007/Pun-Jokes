@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+
+
+    <item
+        android:id="@+id/menu_item_share"
+        app:showAsAction="always"
+        android:title="Share"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"/>
+
+    <item
+        android:id="@+id/action_favoritestar"
+        android:icon="@drawable/starblank"
+        android:title="Favorites"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/about"
+        android:title="About">
+    </item>
+
+
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/favorites2"
+        android:title="Favorites"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/submit"
+        android:title="Submit a Pun">
+    </item>
+
+
+</menu>

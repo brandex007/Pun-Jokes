@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1076245653394",
+    "firebase_url": "https://pun-jokes-android-aa5ad.firebaseio.com",
+    "project_id": "pun-jokes-android-aa5ad",
+    "storage_bucket": "pun-jokes-android-aa5ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076245653394:android:f2c61b77fef32fad",
+        "android_client_info": {
+          "package_name": "punjokes.tuxcreations.com.punjokes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076245653394-4d7t7ttkvdhbrdn5tlo057qfrupr1jko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS3hTEdLEi_bSZvuHJ1EExR--18AXk4q8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
