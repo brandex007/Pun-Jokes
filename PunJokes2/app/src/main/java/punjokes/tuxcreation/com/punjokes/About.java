@@ -17,7 +17,7 @@ import android.widget.Button;
  * Created by Android on 11/17/15.
  */
 public class About extends AppCompatActivity {
-    Button btn1;
+    Button btn1, btn2;
     //PlusOneButton mPlusOneButton;
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +37,16 @@ public class About extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse("https://play.google.com/store/apps/details?id=punjokes.tuxcreation.com.punjokes2"));
+                startActivity(intent);
+            }
+        });
+
+        btn2 = (Button) findViewById(R.id.privacypolicy);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("http://androidprivacypolicy.bitballoon.com"));
                 startActivity(intent);
             }
         });
